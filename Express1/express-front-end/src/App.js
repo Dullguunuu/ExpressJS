@@ -84,6 +84,7 @@ function App() {
         <button className="btn btn-outline-success" onClick={mul}>*</button>
         <button className="btn btn-outline-success" onClick={division}>/</button>
         <button className="btn btn-outline-danger" onClick={clear}>clear</button>
+        <button className="btn btn-outline-danger" onClick={clear}>clear</button>
       </div>
       <br />
     </div >
