@@ -1,0 +1,29 @@
+###
+POST http://localhost:6060/user
+Content-Type: application/json
+
+{
+"username":"test",
+"age": 19
+}
+
+###
+
+DELETE http://localhost:6060/user
+Content-Type: application/json
+
+{
+    "id":"1675048448351"   
+}
+
+
+###
+
+PUT http://localhost:6060/user
+Content-Type: application/json
+
+{
+    "id": "1675048564284",
+    "username": "test22",
+    "age": 33
+}
